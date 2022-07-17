@@ -144,8 +144,8 @@ public class ConsoleUI implements UserInterface {
             } else {
                 field.getTile(osYRowInt, parseInt).setState(Tile.State.OPEN);
             }
-
-        }
+// just a note, ignore this note, trying to save on git.hub
+                    }
 
         System.out.println("Vykonal som pozadovanu operaciu");
     }
